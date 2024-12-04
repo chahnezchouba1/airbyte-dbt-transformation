@@ -5,5 +5,4 @@ sources:
     database: airbyte
     schema: airbyte
     tables:
-      - name: task_completion
-      - name: task
+      - name: htx_user
