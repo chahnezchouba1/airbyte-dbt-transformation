@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: labelstudio_source
     database: labelstudio
-    schema: public
+    schema: labelstudio
     tables:
       - name: task_completion
       - name: task
