@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: labelstudio_source
-    database: labelstudio
-    schema: labelstudio
+    database: airbyte
+    schema: airbyte
     tables:
       - name: task_completion
       - name: task
