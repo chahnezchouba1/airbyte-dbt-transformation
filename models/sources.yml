@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: labelstudio_source
-    database: airbyte
-    schema: airbyte
+    database: labelstudio
+    schema: public
     tables:
       - name: htx_user
