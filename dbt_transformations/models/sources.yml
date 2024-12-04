@@ -1,0 +1,7 @@
+sources:
+  - name: labelstudio_source
+    database: labelstudio
+    schema: public
+    tables:
+      - name: task_completion
+      - name: task
