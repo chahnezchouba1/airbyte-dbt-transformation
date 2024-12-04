@@ -1,0 +1,12 @@
+airbyte_dbt_transformations:
+  outputs:
+    dev:
+      dbname: labelstudio
+      host: localhost
+      pass: labelstudio
+      port: 5431
+      schema: public
+      threads: 1
+      type: postgres
+      user: labelstudio
+  target: dev
